@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#new-book-btn {
+    display:block;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+#new-book-btn:active {
+    background-color: rgba(0, 0, 0, 0.777);
+}
+
+body {
+   background-image: url(abinash-jothimani-P4KX6qSaBcY-unsplash\ \(1\).jpg);
+   background-position: center;
+   background-size: cover;
+   font-family: monospace;
+   background-repeat: no-repeat;
+  
+   
+}
+
+#new-book-form{
+    border: 5px solid white;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.919);
+    
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 50px auto;
+    background-image: url(nik-Im93gzsDbf4-unsplash.jpg);
+    
+    
+    
+}
+
+input {
+    background-color: rgba(245, 245, 245, 0.6);
+   width: 300px;
+   
+    border: none;
+    border-radius: 2px;
+    color: black;
+    font-weight: bold;
+    height: 29px;
+    display: grid;
+   flex-direction: column;
+   margin-left: 85px;
+   margin-top: 40px;   
+}
+
+label {
+    margin-left: 200px;
+   margin-top: 40px; 
+   font-size: 25px; 
+   font-weight: bolder;
+
+}
+
+ #read {
+    margin-top: 10px;
+}
+
+#addbook{
+    cursor: pointer;
+    background-color: #33333389;
+    color: white;
+    margin-left: 165px;
+    margin-top: 55px;
+    padding: 10px;
+    position: absolute;
+    
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#addbook:hover {
+    background-color: #333;
+    
+}
+#addbook:active {
+    background-color: red;
+}
+
+
+
+
